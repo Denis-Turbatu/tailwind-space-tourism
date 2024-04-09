@@ -3,25 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
+  <link rel="icon" type="image/png" sizes="32x32" href="./design/starter-code/assets/favicon-32x32.png">
   <title>Frontend Mentor | Space tourism website</title>
+  <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
-
-  00 Home
+<body class="bg-home-mobile md:bg-home-tablet lg:bg-home-desktop text-center text-white">
+  <header class="flex justify-between items-center p-5">
+    <img src="./design/starter-code/assets/shared/logo.svg" alt="logo" class="w-10 h-10">
+    <img src="./design/starter-code/assets/shared/icon-hamburger.svg" alt="hamburger-menu" class="w-6 h-5">
+  </header>
+  <!-- 00 Home
   01 Destination
   02 Crew
-  03 Technology
+  03 Technology -->
 
-  So, you want to travel to
-  Space
-  Let’s face it; if you want to go to space, you might as well genuinely go to 
-  outer space and not hover kind of on the edge of it. Well sit back, and relax 
-  because we’ll give you a truly out of this world experience!
-
-  Explore
+  <main class="p-5 flex flex-col justify-between h-screen">
+    <section>
+      <h4 class="italic">So, you want to travel to</h4>
+      <h1 class="text-8xl my-7">SPACE</h1>
+      <p>
+        Let’s face it; if you want to go to space, you might as well genuinely go to
+        outer space and not hover kind of on the edge of it. Well sit back, and relax
+        because we’ll give you a truly out of this world experience!
+      </p>
+    </section>
+    <a href="" class="bg-white text-black text-xl h-36 w-36 flex items-center justify-center rounded-full mx-auto">Explore</a>
+  </main>
 
 </body>
 </html>
